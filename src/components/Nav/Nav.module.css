@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  position: fixed;
+  top: 15px;
+  width: 92vw;
+  left: 0;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 25px 35px;
+  color: white;
+  background-color: #34a1b6;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  align-items: center;
+  margin: 20px;
+  border-radius: 7px;
+  border: 2px solid whitesmoke;
+  box-shadow: 1px 2px 3px 2px whitesmoke;
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+}
+.navLink {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 6px 9px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 2px whitesmoke;
+  text-shadow: 2px 2px 3px rgb(75, 100, 109);
+  &:hover {
+    color: #417866;
+
+    text-shadow: 2px 3px 3px rgb(245, 246, 247);
+    transform: scale(1.1);
+  }
+}
+.homeLink {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 6px 9px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 2px whitesmoke;
+  text-shadow: 2px 2px 3px rgb(75, 100, 109);
+  &:hover {
+    color: #417866;
+
+    text-shadow: 2px 3px 3px rgb(245, 247, 248);
+    transform: scale(1.1);
+  }
+}
+.navButton {
+  padding: 5px;
+  background-color: transparent;
+  font-style: italic;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 2px whitesmoke;
+  text-shadow: 2px 2px 3px rgb(75, 100, 109);
+  &:hover {
+    color: #417866;
+
+    text-shadow: 2px 3px 3px rgb(245, 247, 248);
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,71 @@
+.wrapperForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 63px);
+  margin: 0 auto;
+}
+.form {
+  padding: 25px 35px;
+  box-shadow: 1px 2px 3px 2px whitesmoke;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  gap: 15px;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #34a1b6;
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px rgb(44, 48, 49);
+    box-shadow: 1px 2px 3px 2px whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    transition: transform 0.4s;
+    width: 255px;
+    &:hover {
+      background-color: #417866;
+      color: whitesmoke;
+      box-shadow: 2px 3px 3px skyblue;
+      transform: scale(1.1);
+    }
+  }
+  .link {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+}
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+
+  label {
+    font-weight: bold;
+    color: antiquewhite;
+  }
+  input {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px skyblue;
+  }
+  span {
+    color: red;
+    font-weight: bold;
+  }
+}
+.iconBtn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+}
